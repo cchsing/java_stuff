@@ -1,7 +1,7 @@
-package Scripts;
+package sortingAlgo;
 
 public class algo_ms_1 {
-    
+
     public static void mergesort1(int[] array) {
         mergesort1(array, new int[array.length], 0, array.length - 1);
     }
@@ -19,7 +19,7 @@ public class algo_ms_1 {
     public static void mergeHalves(int[] array, int[] temp, int leftStart, int rightEnd) {
         int leftEnd = (rightEnd + leftStart) / 2;
         int rightStart = leftEnd + 1;
-        int size = rightEnd - leftStart + 1; 
+        int size = rightEnd - leftStart + 1;
 
         int left = leftStart;
         int right = rightStart;
@@ -41,7 +41,7 @@ public class algo_ms_1 {
         System.arraycopy(temp, leftStart, array, leftStart, size);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
     }
 }
