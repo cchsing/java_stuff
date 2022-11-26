@@ -1,12 +1,12 @@
 package practice_1;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+// import java.math.*;
+// import java.security.*;
+// import java.text.*;
+// import java.util.*;
+// import java.util.concurrent.*;
+// import java.util.regex.*;
 
 public class script4 {
     public static void main(String[] args) throws IOException {
@@ -15,5 +15,14 @@ public class script4 {
         int N = Integer.parseInt(bufferedReader.readLine().trim());
 
         bufferedReader.close();
+
+        if (N >= 2 && N <= 20) {
+            for (int i = 1; i < 11; i++) {
+                System.out.printf("%d x %d = %d \n", N, i, N * i);
+            }
+        } else {
+            throw new IOException("Out of bound.");
+        }
+
     }
 }
