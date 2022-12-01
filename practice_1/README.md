@@ -1,0 +1,13 @@
+# HackerRank Practices - [My Profile](https://www.hackerrank.com/chiahsing_chong)
+
+1. Web URL: [Java If-Else](https://www.hackerrank.com/challenges/java-if-else?isFullScreen=true) - [Script 1](./script1.java)
+2. Web URL: [Java Stdin and Stdout II](https://www.hackerrank.com/challenges/java-stdin-stdout?isFullScreen=true) - [Script 2](./script2.java)
+3. Web URL: [Java Output Formatting](https://www.hackerrank.com/challenges/java-output-formatting?isFullScreen=true) - []()
+4. Web URL: []() - []()
+5. Web URL: []() - []()
+6. Web URL: []() - []()
+7. Web URL: []() - []()
+8. Web URL: []() - []()
+9. Web URL: []() - []()
+10. Web URL: []() - []()
+11. Web URL: []() - []()
