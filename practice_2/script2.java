@@ -4,7 +4,7 @@ package practice_2;
 
 public class script2 {
 
-    public class Stack {
+    static class Stack {
         private static class Node {
             private int data;
             private Node next;
@@ -38,6 +38,11 @@ public class script2 {
     }
 
     public static void main(String[] args) {
-
+        Stack stk_1 = new Stack();
+        stk_1.push(10);
+        stk_1.push(20);
+        System.out.println(stk_1.peek());
+        stk_1.pop();
+        System.out.println(stk_1.peek());
     }
 }
