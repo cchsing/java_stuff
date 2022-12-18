@@ -53,6 +53,9 @@ public class script4 {
     }
 
     public static void main(String[] args) {
+        LinkedList LList_1 = new LinkedList();
+        LList_1.append(1);
+        System.out.println(LList_1.head.data);
 
     }
 }
