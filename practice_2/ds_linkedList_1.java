@@ -1,6 +1,6 @@
 package practice_2;
 
-public class script4 {
+public class ds_linkedList_1 {
     static class Node {
         Node next;
         int data;

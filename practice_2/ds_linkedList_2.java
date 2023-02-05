@@ -1,6 +1,6 @@
 package practice_2;
 
-public class script3 {
+public class ds_linkedList_2 {
     static class Test_DataModel {
         public static class DataNode {
             public int value;

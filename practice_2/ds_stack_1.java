@@ -2,7 +2,7 @@
 // Data Structures: Stacks and Queues
 package practice_2;
 
-public class script2 {
+public class ds_stack_1 {
 
     static class Stack {
         private static class Node {
